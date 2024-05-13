@@ -15,9 +15,68 @@
             <br/>
             Digite seu nome abaixo pra começar!
         </p>
-        <input type="text" id="playerName" placeholder="Digite seu nome aqui">
+        <input type="name" id="playerName" placeholder="Digite seu nome aqui">
         <br/>
         <button onclick="iniciarQuiz">Iniciar</button>
     </header>
+
+    <hr>
+
+    <main>
+        <form>
+            <div class="question">
+                <label for="q1">1) Como se define um estilo inline em HTML?</label>
+                <input type="text" id="q1" name="q1">
+            </div>
+            <div class="question">
+                <label for="q2">2) Qual é a tag usada para criar uma lista ordenada em HTML?</label>
+                <select id="q2" name="q2">
+                    <option value="ol">ol</option>
+                    <option value="ul">ul</option>
+                    <option value="li">li</option>
+                    <option value="order-list">order-list</option>
+                </select>
+            </div>
+            <div class="question">
+                <label for="q3">3) Qual propriedade CSS é usada para alterar a cor do texto?</label>
+                <select id="q3" name="q3">
+                    <option value="font-color">font-color</option>
+                    <option value="color">color</option>
+                    <option value="background-color">background-color</option>
+                    <option value="text-color">text-color</option>
+                </select>
+            </div>
+            <div class="question">
+                <label for="q4">4) Como se referencia um arquivo CSS externo em um documento HTML?</label>
+                <input type="text" id="q4" name="q4">
+            </div>
+            <div class="question">
+                <label for="q5">5) Font-size é a propriedade CSS usada para alterar o tamanho da fonte de um texto?</label>
+                <label><input type="radio" name="q5" value="sim"> Sim</label>
+                <label><input type="radio" name="q5" value="não"> Não</label>
+            </div>
+            <div class="question">
+                <label for="q6">6) Qual é a propriedade CSS usada para definir a largura de um elemento?</label>
+                <label><input type="checkbox" name="q6" value="height"> height</label>
+                <label><input type="checkbox" name="q6" value="size"> size</label>
+                <label><input type="checkbox" name="q6" value="width"> width</label>
+                <label><input type="checkbox" name="q6" value="max-width"> max-width</label>
+            </div>
+            <div class="question">
+                <label for="q7">7) Como se cria um comentário em CSS?</label>
+                <label><input type="checkbox" name="q7" value="<!-- -->"> <!-- --></label>
+                <label><input type="checkbox" name="q7" value="//"> // </label>
+                <label><input type="checkbox" name="q7" value="/* */"> /* */ </label>
+            </div>
+            <div class="question">
+                <label for="q8">8) Qual é a propriedade CSS usada para definir a altura de um elemento?</label>
+                <label><input type="checkbox" name="q8" value="height"> height</label>
+                <label><input type="checkbox" name="q8" value="size"> size</label>
+                <label><input type="checkbox" name="q8" value="min-height"> min-height</label>
+                <label><input type="checkbox" name="q8" value="max-height"> max-height</label>
+            </div>
+            <br>
+        </form>
+    </main>
 </body>
 </html>
