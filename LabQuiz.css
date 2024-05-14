@@ -44,6 +44,7 @@ button{
     cursor: pointer;
     transition: background-color 0.3s, color 0.3s;
     border-radius: 10px;
+    box-shadow: 0 0 15px #040024;
 }
 
 button:hover {
@@ -96,4 +97,24 @@ input[type="text"]:focus, select:focus {
 
 input[type="radio"], input[type="checkbox"] {
     margin-right: 10px;
+}
+
+footer {
+    background-color: #3498db;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer a:hover {
+    text-decoration: underline;
 }
